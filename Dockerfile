@@ -1,5 +1,5 @@
 FROM python:2.7.14-jessie
-MAINTAINER Jean-Marie CROMMEN <jmcrommen@gmail.com>
+MAINTAINER Jean-Marie CROMMEN
 
 RUN \
   apt-get update && \
