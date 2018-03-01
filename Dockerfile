@@ -15,7 +15,7 @@ RUN \
   rm -rf /var/lib/apt/lists/*
   
 RUN \
-  npm install html-minifier -g && \
+  npm install clean-css -g && \
   npm install uglify-js -g
 	
 CMD /bin/bash
